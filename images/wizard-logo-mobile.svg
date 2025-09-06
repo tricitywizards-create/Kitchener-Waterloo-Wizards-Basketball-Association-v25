@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ultra-lightweight mobile logo -->
+  <defs>
+    <radialGradient id="wizardGlow" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#89CFF0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6a0dad;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Basketball -->
+  <circle cx="50" cy="50" r="35" fill="url(#wizardGlow)" stroke="#89CFF0" stroke-width="2"/>
+  
+  <!-- Basketball lines -->
+  <path d="M15 50 Q50 30 85 50" stroke="#fff" stroke-width="1.5" fill="none"/>
+  <path d="M15 50 Q50 70 85 50" stroke="#fff" stroke-width="1.5" fill="none"/>
+  <line x1="50" y1="15" x2="50" y2="85" stroke="#fff" stroke-width="1.5"/>
+  
+  <!-- Wizard hat -->
+  <polygon points="50,5 35,25 65,25" fill="#6a0dad" stroke="#89CFF0" stroke-width="1"/>
+  <circle cx="50" cy="25" r="3" fill="#89CFF0"/>
+  
+  <!-- Magic sparkles -->
+  <text x="25" y="30" fill="#89CFF0" font-size="8">✨</text>
+  <text x="70" y="35" fill="#89CFF0" font-size="6">✨</text>
+  <text x="30" y="75" fill="#89CFF0" font-size="7">✨</text>
+</svg>

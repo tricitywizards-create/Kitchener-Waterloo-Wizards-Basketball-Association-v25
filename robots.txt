@@ -1,0 +1,41 @@
+# Robots.txt for Kitchener-Waterloo Wizards Basketball Association
+# This file tells search engines how to crawl our website
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Explicitly allow important pages for better indexing
+Allow: /index.html
+Allow: /about.html
+Allow: /registration.html
+Allow: /rep-teams.html
+Allow: /development.html
+Allow: /individual-training.html
+Allow: /upcoming-events.html
+Allow: /photo-gallery.html
+Allow: /u11-rep-tryouts-flyer.html
+Allow: /sitemap.html
+
+# Allow all HTML pages
+Allow: /*.html
+
+# Explicitly allow logo and important image files for SEO
+Allow: /images/wizard-basketball-logo.png
+Allow: /images/wizard-logo.png
+Allow: /images/
+
+# Allow stylesheets and scripts
+Allow: /*.css
+Allow: /*.js
+Allow: /assets/
+
+# Disallow any potential admin or private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.DS_Store
+
+# Main sitemap location - crucial for Google indexing
+Sitemap: https://kitchener-waterloo-wizards.com/sitemap.xml

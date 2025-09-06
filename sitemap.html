@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Complete sitemap of Kitchener-Waterloo Wizards Basketball Association website - find all our pages and services."><meta name="robots" content="index, follow"><link rel="canonical" href="https://kitchener-waterloo-wizards.com/sitemap.html"><link rel="icon" type="image/png" href="images/wizard-logo.png"><title>Site Map - Kitchener-Waterloo Wizards Basketball Association</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);color:#fff;line-height:1.6;min-height:100vh;
+  min-height: -webkit-fill-available;padding:2rem}.container{max-width:1200px;margin:0 auto;background:rgba(0,0,0,0.3);backdrop-filter:blur(10px);border-radius:15px;padding:3rem;border:1px solid rgba(137,207,240,0.2)}h1{color:#89CFF0;text-align:center;margin-bottom:0.5rem;font-size:2.5rem;text-shadow:0 0 10px rgba(137,207,240,0.3)}.subtitle{text-align:center;color:#ccc;margin-bottom:3rem;font-size:1.1rem}.last-updated{text-align:center;color:#89CFF0;margin-bottom:2rem;font-size:0.9rem;opacity:0.8}.sitemap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-bottom:3rem}.page-category{background:rgba(137,207,240,0.1);border-radius:10px;padding:2rem;border:1px solid rgba(137,207,240,0.2);transition:all 0.3s ease}.page-category:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(137,207,240,0.2)}.category-title{color:#89CFF0;font-size:1.4rem;margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:2px solid rgba(137,207,240,0.3)}.page-list{list-style:none}.page-list li{margin-bottom:0.8rem}.page-list a{color:#fff;text-decoration:none;display:flex;align-items:center;padding:0.8rem;border-radius:8px;transition:all 0.3s ease;background:rgba(255,255,255,0.05)}.page-list a:hover{background:rgba(137,207,240,0.2);color:#89CFF0;text-shadow:0 0 5px rgba(137,207,240,0.5);transform:translateX(10px)}.page-icon{margin-right:0.8rem;font-size:1.2rem;width:24px;text-align:center}.page-description{font-size:0.9rem;color:#bbb;margin-top:0.3rem;padding-left:32px}.back-to-home{text-align:center;margin-top:2rem}.back-to-home a{display:inline-block;background:linear-gradient(45deg,#89CFF0,#4a9eff);color:#fff;text-decoration:none;padding:1rem 2rem;border-radius:25px;font-weight:bold;transition:all 0.3s ease;box-shadow:0 5px 15px rgba(137,207,240,0.3)}.back-to-home a:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(137,207,240,0.4)}.page-count{text-align:center;color:#89CFF0;margin-bottom:1rem;font-size:1rem}@media (max-width:768px)
+
+/* ACCESSIBILITY IMPROVEMENTS */
+@media (max-width: 768px) {
+  /* Allow text selection for content */
+  p, span, h1, h2, h3, h4, h5, h6, 
+  .header-text, .tagline, li, 
+  .highlight-benefit, .highlight-key {
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Interactive elements should be clearly tappable */
+  a, button, .btn, .menu-toggle, 
+  .nav-links a, .mobile-social-icons a {
+    -webkit-tap-highlight-color: rgba(137, 207, 240, 0.3) !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Form elements accessibility */
+  input, select, textarea {
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    font-size: 16px !important; /* Prevent iOS zoom */
+    -webkit-tap-highlight-color: rgba(137, 207, 240, 0.2);
+  }
+}
+/* TOUCH-ACTION OPTIMIZATION - Resolve Conflicts */
+@media (max-width: 768px) {
+  /* Base rule: Allow vertical scrolling */
+  * {
+    touch-action: pan-y;
+  }
+  
+  /* Interactive elements: Allow all gestures */
+  a, button, .btn, input, select, textarea, 
+  .menu-toggle, .mobile-social-icons a, 
+  .nav-links a, .rep-team-box, 
+  [role="button"], [onclick] {
+    touch-action: manipulation !important;
+  }
+  
+  /* Scrollable containers: Allow pan gestures */
+  .nav-links, main, section, 
+  .calendar-box, html, body {
+    touch-action: pan-y pan-x;
+  }
+  
+  /* Text content: Allow selection */
+  p, span, h1, h2, h3, h4, h5, h6, 
+  .header-text, .tagline {
+    touch-action: pan-y;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}{
+  /* Mobile touch-action hierarchy */body{padding:1rem}.container{padding:1.5rem}h1{font-size:2rem}.sitemap-grid{grid-template-columns:1fr;gap:1.5rem}}
+/* COMPREHENSIVE iOS SAFARI OPTIMIZATIONS */
+@supports (-webkit-touch-callout: none) {
+  /* iOS Safari specific fixes */
+  body {
+    /* Fix viewport height on iOS Safari */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    
+    /* Improve scrolling performance */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+  
+  /* Fix iOS Safari viewport height issues */
+  .nav-links {
+    height: calc(100vh - 120px);
+    height: calc(-webkit-fill-available - 120px);
+  }
+  
+  /* Prevent iOS Safari zoom on input focus */
+  input, select, textarea {
+    font-size: 16px !important;
+    transform: translateZ(0); /* Force hardware acceleration */
+  }
+  
+  /* iOS Safari safe area support */
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  nav {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* Enhanced accessibility for screen readers */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .star {
+    animation: none !important;
+    opacity: 0.2 !important;
+  }
+}
+</style>
+</head><body><div class="container"><h1>🏀 Site Map</h1><p class="subtitle">Find everything on the Kitchener-Waterloo Wizards Basketball Association website</p><p class="page-count">Total Pages: 9</p><p class="last-updated">Last Updated: September 05, 2025 at 12:00 AM</p><div class="sitemap-grid"><div class="page-category"><h2 class="category-title">🏠 Main Pages</h2><ul class="page-list"><li><a href="index.html"><span class="page-icon">🏠</span><div><strong>Homepage</strong><div class="page-description">Welcome to the Wizards - Magic on the Court!</div></div></a></li><li><a href="about.html"><span class="page-icon">ℹ️</span><div><strong>About Us</strong><div class="page-description">Learn about our basketball association and mission</div></div></a></li></ul></div><div class="page-category"><h2 class="category-title">🏀 Programs & Training</h2><ul class="page-list"><li><a href="development.html"><span class="page-icon">📈</span><div><strong>Development Program</strong><div class="page-description">Skill development programs for all ages</div></div></a></li><li><a href="rep-teams.html"><span class="page-icon">🏆</span><div><strong>Rep Teams</strong><div class="page-description">Competitive basketball teams and tryout information</div></div></a></li><li><a href="individual-training.html"><span class="page-icon">👤</span><div><strong>Individual Training</strong><div class="page-description">One-on-one coaching and personal development</div></div></a></li></ul></div><div class="page-category"><h2 class="category-title">📝 Registration & Events</h2><ul class="page-list"><li><a href="registration.html"><span class="page-icon">📝</span><div><strong>Registration</strong><div class="page-description">Sign up for programs and teams</div></div></a></li><li><a href="upcoming-events.html"><span class="page-icon">📅</span><div><strong>Upcoming Events</strong><div class="page-description">Games, tournaments, and special events</div></div></a></li><li><a href="u11-rep-tryouts-flyer.html"><span class="page-icon">🔥</span><div><strong>U11 Rep Tryouts</strong><div class="page-description">Information about U11 rep team tryouts</div></div></a></li></ul></div><div class="page-category"><h2 class="category-title">📸 Media</h2><ul class="page-list"><li><a href="photo-gallery.html"><span class="page-icon">📷</span><div><strong>Photo Gallery</strong><div class="page-description">Photos from games, events, and team activities</div></div></a></li></ul></div></div><div class="back-to-home"><a href="index.html">← Back to Homepage</a></div></div></body></html>
